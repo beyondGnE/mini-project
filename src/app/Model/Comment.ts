@@ -1,4 +1,4 @@
 export interface Comment{
     id: number;
-    comment: String;
+    comment: string;
 }

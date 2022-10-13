@@ -19,7 +19,7 @@ export class PlaceComponent implements OnInit {
   ngOnInit(): void {
       this.pservice.getAllPlaces().subscribe(data =>{
          this.places= data; 
-         console.log(this.places)
+        //  console.log(this.places)
       });
       // console.log(this.places);
   }
